@@ -4,7 +4,7 @@ const Contact = () => {
       id="contact"
       className="contact h-[500px] border border-slate-950 flex items-center justify-center border-dashed"
     >
-      <div className="img1 h-44 w-44 border border-slate-950"></div>
+      <div className="img1 h-44 w-44 border-0 border-slate-950"></div>
       <div className="all-contact flex flex-col items-center justify-center border-0 border-slate-950">
         <h2 className="flex justify-center w-full border-0 border-slate-950 text-lg">
           Wanna Talk
@@ -13,12 +13,12 @@ const Contact = () => {
           vazeswaroop@gmail.com
         </h2>
         <p className="flex justify-center w-full border-0 border-slate-950 p-4">
-          Lorem ipsum dolor sit amet consectetur,
-          <br /> adipisicing elit. Sit nulla iusto molestiae.
+          Want to Check my resume or just want to say hi?
+          <br />
         </p>
         <p className="flex justify-center w-full border-0 border-slate-950 p-4">
-          Lorem ipsum dolor sit amet consectetur,
-          <br /> adipisicing elit. Sit nulla iusto molestiae.
+          You can contact me anywhere, anytime
+          <br /> I am always available for a chat.
         </p>
         <div className="flex w-full justify-around">
           <button className="border border-slate-950 border-dashed p-4">
@@ -87,7 +87,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="img2 h-44 w-44 border border-slate-950"></div>
+      <div className="img2 h-44 w-44 border-0 border-slate-950"></div>
     </section>
   );
 };

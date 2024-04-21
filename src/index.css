@@ -14,13 +14,13 @@
   font-family: "JetBrains Mono", monospace;
 }
 :root {
+}
+
+body {
   background: url("./assets/crumpled-white-paperboard.jpg");
   background-size: cover;
   width: 100vw;
   background-repeat: no-repeat;
-}
-
-body {
 }
 
 .temp {

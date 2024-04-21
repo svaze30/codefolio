@@ -4,8 +4,8 @@ const Hero = () => {
       id="home"
       className="hero flex flex-row items-center h-[600px] justify-center border-b border-slate-950 border-dashed"
     >
-      <div className="img-1 h-44 w-44 border border-slate-950">
-        <img src="../assets/crumpled-white-paperboard.jpg" alt="engineer" />
+      <div className="img-1 h-44 w-44 border-0 border-slate-950">
+        <img src="../assets/crumpled-white-paperboard.jpg" alt="" />
       </div>
       <div className="name-holder border-0 border-slate-950">
         <h2 className="text-xl border-0 border-slate-950 w-full flex items-center justify-center text-center">
@@ -20,7 +20,7 @@ const Hero = () => {
           Engineer/Artist
         </h2>
       </div>
-      <div className="img-1 h-44 w-44 border border-slate-950 "></div>
+      <div className="img-1 h-44 w-44 border-0 border-slate-950 "></div>
     </section>
   );
 };

@@ -30,8 +30,8 @@ const AboutMe = () => {
         </p>
         <br />
       </div>
-      <div className="about-img h-44 w-44 border border-slate-950">
-        <img src="../assets/crumpled-white-paperboard.jpg" alt="engineer" />
+      <div className="about-img h-44 w-44 border-0 border-slate-950">
+        <img src="../assets/crumpled-white-paperboard.jpg" alt="" />
       </div>
     </section>
   );
