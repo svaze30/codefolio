@@ -26,3 +26,8 @@ body {
 .temp {
   color: red;
 }
+
+::selection {
+  color: white;
+  background: black;
+}

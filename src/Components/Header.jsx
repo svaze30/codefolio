@@ -1,28 +1,29 @@
 const Header = () => {
   return (
-    <section className="header flex border flex-auto items-center border-slate-950 h-16">
+    <section className="header flex  flex-auto items-center border-b border-slate-950 border-dashed h-16">
       <nav className="navbar flex grow flex-row justify-between border-slate-950">
-        <div className="logo border border-slate-950 m-5">
-          <h1>My Portfolio</h1>
+        <div className=" flex items-center justify-center logo border-0 border-slate-950 m-5 gap-3">
+          <img className="h-10" src="public\favicon.ico" alt="svaze" />
+          <h1 className="text-xl font-black">Svaze/スヱズ</h1>
         </div>
-        <div className="links border border-slate-950 m-5 ">
-          <ul className="flex gap-10 ">
-            <li>
+        <div className="flex items-center justify-center links border-0 border-slate-950 ">
+          <ul className="flex items-center justify-center gap-6 text-lg">
+            <li className="border-b p-2 border-slate-950 border-dashed">
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li className="border-b p-2 border-slate-950 border-dashed">
               <a href="#aboutme">About Me</a>
             </li>
-            <li>
+            <li className="border-b p-2 border-slate-950 border-dashed">
               <a href="#skills">Skills</a>
             </li>
-            <li>
+            <li className="border-b p-2 border-slate-950 border-dashed">
               <a href="#cp">CP</a>
             </li>
-            <li>
+            <li className="border-b p-2 border-slate-950 border-dashed">
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li className="border-b p-2 border-slate-950 border-dashed">
               <a href="#contact">Contact</a>
             </li>
           </ul>

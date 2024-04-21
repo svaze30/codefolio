@@ -25,20 +25,27 @@ const CP = () => {
   }, [name]);
 
   return (
-    <section id="cp" className="cp flex border border-slate-950">
-      <h2>Competive Programming</h2>
-      <br />
-      <p>{name} bruh</p>
-      <br />
-      <p>{rating} bruh</p>
-      <br />
-      <p>{maxRating} bruh</p>
-      <br />
-      <p>{rank} bruh</p>
-      <br />
-      <p>{maxRank} bruh</p>
-      <br />
-      <img src={image} alt="user" />
+    <section
+      id="cp"
+      className="cp flex flex-col border-b border-slate-950 border-dashed pb-20"
+    >
+      <h2 className="w-full m-10 text-4xl mx-36">Competive Programming</h2>
+      <div className="flex flex-row justify-around items-center">
+        <div className="info">
+          <br />
+          <p>My Handle - {name} </p>
+          <br />
+          <p>My Rating - {rating}</p>
+          <br />
+          <p>My Max Rating - {maxRating}</p>
+          <br />
+          <p>My Rank - {rank}</p>
+          <br />
+          <p>My Max Rank - {maxRank}</p>
+          <br />
+        </div>
+        <img className="rounded-3xl" src={image} alt="user" />
+      </div>
     </section>
   );
 };
