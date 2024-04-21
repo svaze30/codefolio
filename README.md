@@ -1,2 +1,3 @@
-# codefolio
-My Portfolio made for Face codefolio
+# Codefolio
+
+This Portfolio project was created for FACE Codefolio
