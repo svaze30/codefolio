@@ -2,10 +2,14 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="hero flex flex-row items-center h-[600px] justify-center border-b border-slate-950 border-dashed"
+      className="hero flex flex-row items-center h-[600px] justify-center border-b border-slate-950 border-dashed gap-20"
     >
-      <div className="img-1 h-44 w-44 border-0 border-slate-950">
-        <img src="../assets/crumpled-white-paperboard.jpg" alt="" />
+      <div className="img-1 h-80 w-80 border-0 border-slate-950">
+        <img
+          src={new URL(`/dots.png`, import.meta.url).href}
+          alt=""
+          className="animate-pulse"
+        />
       </div>
       <div className="name-holder border-0 border-slate-950">
         <h2 className="text-xl border-0 border-slate-950 w-full flex items-center justify-center text-center">
@@ -20,7 +24,13 @@ const Hero = () => {
           Engineer/Artist
         </h2>
       </div>
-      <div className="img-1 h-44 w-44 border-0 border-slate-950 "></div>
+      <div className="img-1 h-80 w-80 border-0 border-slate-950 ">
+        <img
+          src={new URL(`/dots.png`, import.meta.url).href}
+          alt=""
+          className="animate-pulse"
+        />
+      </div>
     </section>
   );
 };

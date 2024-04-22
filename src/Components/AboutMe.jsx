@@ -30,8 +30,12 @@ const AboutMe = () => {
         </p>
         <br />
       </div>
-      <div className="about-img h-44 w-44 border-0 border-slate-950">
-        <img src="../assets/crumpled-white-paperboard.jpg" alt="" />
+      <div className="img-1 h-60 w-60 border-0 border-slate-950">
+        <img
+          src={new URL(`/dots.png`, import.meta.url).href}
+          alt=""
+          className="animate-pulse"
+        />
       </div>
     </section>
   );

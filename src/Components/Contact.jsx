@@ -2,9 +2,15 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="contact h-[500px] border border-slate-950 flex items-center justify-center border-dashed"
+      className="contact h-[500px] border border-slate-950 flex items-center justify-center border-dashed gap-20"
     >
-      <div className="img1 h-44 w-44 border-0 border-slate-950"></div>
+      <div className="img-1 h-80 w-80 border-0 border-slate-950">
+        <img
+          src={new URL(`/dots.png`, import.meta.url).href}
+          alt=""
+          className="animate-pulse"
+        />
+      </div>
       <div className="all-contact flex flex-col items-center justify-center border-0 border-slate-950">
         <h2 className="flex justify-center w-full border-0 border-slate-950 text-lg">
           Wanna Talk
@@ -92,7 +98,13 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="img2 h-44 w-44 border-0 border-slate-950"></div>
+      <div className="img-1 h-80 w-80 border-0 border-slate-950">
+        <img
+          src={new URL(`/dots.png`, import.meta.url).href}
+          alt=""
+          className="animate-pulse"
+        />
+      </div>
     </section>
   );
 };
