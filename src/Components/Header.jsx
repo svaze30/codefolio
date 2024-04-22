@@ -3,7 +3,11 @@ const Header = () => {
     <section className="header flex  flex-auto items-center border-b border-slate-950 border-dashed h-16">
       <nav className="navbar flex grow flex-row justify-between border-slate-950">
         <div className=" flex items-center justify-center logo border-0 border-slate-950 m-5 gap-3">
-          <img className="h-10" src="public\favicon.ico" alt="svaze" />
+          <img
+            className="h-10"
+            src={new URL(`/favicon.ico`, import.meta.url).href}
+            alt="svaze"
+          />
           <h1 className="text-xl font-black">Svaze/スヱズ</h1>
         </div>
         <div className="flex items-center justify-center links border-0 border-slate-950 ">
