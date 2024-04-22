@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           src={new URL(`/dots.png`, import.meta.url).href}
           alt=""
-          className="animate-pulse"
+          className="animate-pulse transition ease-linear hover:-translate-x-4"
         />
       </div>
       <div className="name-holder border-0 border-slate-950">
@@ -28,7 +28,7 @@ const Hero = () => {
         <img
           src={new URL(`/dots.png`, import.meta.url).href}
           alt=""
-          className="animate-pulse"
+          className="animate-pulse transition ease-linear hover:translate-x-4"
         />
       </div>
     </section>

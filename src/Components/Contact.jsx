@@ -8,7 +8,7 @@ const Contact = () => {
         <img
           src={new URL(`/dots.png`, import.meta.url).href}
           alt=""
-          className="animate-pulse"
+          className="animate-pulse transition ease-linear hover:translate-x-4"
         />
       </div>
       <div className="all-contact flex flex-col items-center justify-center border-0 border-slate-950">
@@ -102,7 +102,7 @@ const Contact = () => {
         <img
           src={new URL(`/dots.png`, import.meta.url).href}
           alt=""
-          className="animate-pulse"
+          className="animate-pulse transition ease-linear hover:-translate-x-4"
         />
       </div>
     </section>
