@@ -21,10 +21,15 @@ const Contact = () => {
           <br /> I am always available for a chat.
         </p>
         <div className="flex w-full justify-around">
-          <button className="border border-slate-950 border-dashed p-4">
-            Email Me
+          <button className="border border-slate-950 border-dashed p-4 transition ease-in-out delay-150  hover:scale-110">
+            <a href="mailto:vazeswaroop@gmail.com">Email Me</a>
           </button>
-          <button className="border border-slate-950 border-dashed p-4">
+          <button
+            className="border border-slate-950 border-dashed p-4 transition ease-in-out delay-150  hover:scale-110"
+            onClick={() => {
+              window.open("/resume.pdf");
+            }}
+          >
             Resume
           </button>
         </div>
@@ -36,7 +41,7 @@ const Contact = () => {
           >
             Twitter{""}
             <svg
-              className="h-8"
+              className="h-8 transition ease-in-out delay-150  hover:scale-110"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
             >
@@ -50,7 +55,7 @@ const Contact = () => {
           >
             Linked In{""}
             <svg
-              className="h-8"
+              className="h-8 transition ease-in-out delay-150  hover:scale-110"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >
@@ -64,7 +69,7 @@ const Contact = () => {
           >
             Github{""}
             <svg
-              className="h-8"
+              className="h-8 transition ease-in-out delay-150  hover:scale-110"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
             >
@@ -78,7 +83,7 @@ const Contact = () => {
           >
             Instagram{""}
             <svg
-              className="h-8"
+              className="h-8 transition ease-in-out delay-150  hover:scale-110"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
             >

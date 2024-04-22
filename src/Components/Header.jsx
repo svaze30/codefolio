@@ -4,7 +4,7 @@ const Header = () => {
       <nav className="navbar flex grow flex-row justify-between border-slate-950">
         <div className=" flex items-center justify-center logo border-0 border-slate-950 m-5 gap-3">
           <img
-            className="h-10"
+            className="h-10 transition ease-in-out delay-150  hover:scale-110"
             src={new URL(`/favicon.ico`, import.meta.url).href}
             alt="svaze"
           />
@@ -12,22 +12,22 @@ const Header = () => {
         </div>
         <div className="flex items-center justify-center links border-0 border-slate-950 ">
           <ul className="flex items-center justify-center gap-6 text-lg">
-            <li className="border-b p-2 border-slate-950 border-dashed">
+            <li className="border-b p-2 border-slate-950 border-dashed transition ease-in-out delay-150  hover:scale-110">
               <a href="#home">Home</a>
             </li>
-            <li className="border-b p-2 border-slate-950 border-dashed">
+            <li className="border-b p-2 border-slate-950 border-dashed transition ease-in-out delay-150  hover:scale-110">
               <a href="#aboutme">About Me</a>
             </li>
-            <li className="border-b p-2 border-slate-950 border-dashed">
+            <li className="border-b p-2 border-slate-950 border-dashed transition ease-in-out delay-150  hover:scale-110">
               <a href="#skills">Skills</a>
             </li>
-            <li className="border-b p-2 border-slate-950 border-dashed">
+            <li className="border-b p-2 border-slate-950 border-dashed transition ease-in-out delay-150  hover:scale-110">
               <a href="#cp">CP</a>
             </li>
-            <li className="border-b p-2 border-slate-950 border-dashed">
+            <li className="border-b p-2 border-slate-950 border-dashed transition ease-in-out delay-150  hover:scale-110">
               <a href="#projects">Projects</a>
             </li>
-            <li className="border-b p-2 border-slate-950 border-dashed">
+            <li className="border-b p-2 border-slate-950 border-dashed transition ease-in-out delay-150  hover:scale-110">
               <a href="#contact">Contact</a>
             </li>
           </ul>

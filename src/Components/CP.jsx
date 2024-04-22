@@ -44,7 +44,11 @@ const CP = () => {
           <p>My Max Rank - {maxRank}</p>
           <br />
         </div>
-        <img className="rounded-3xl" src={image} alt="user" />
+        <img
+          className="rounded-3xl transition ease-in-out delay-150  hover:scale-110"
+          src={image}
+          alt="user"
+        />
       </div>
     </section>
   );
